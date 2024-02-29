@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Title>Medical Store</Title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/final.css">
+  </head>
+  <body>
+  <header class="header">
+      <a href="final.html" class="logo"><i class="fa fa-medkit" aria-hidden="true"></i> Medical Store</a>
+    <nav class="navbar">
+      <a href="final.html">home</a>
+      <a href="aboutUs.html">about Us</a>
+      <a href="products.html">products</a>
+      <a href="services.html">Services</a>
+      <a href="contactUs.html">Contact Us</a>
+    </nav>
+    <div class="icons">
+       <div class="fa fa-bars menu-btn"></div>
+       <div class="fa fa-search" id="search-btn"></div>      
+       <div class="fa fa-shopping-cart" id="cart-btn"></div>
+       <div class="fa fa-user" id="login-btn"></div>    
+    </div>
+
+    <form class="search-form">
+      <input type="search" id="search-box" placeholder="Search here ......" >
+      <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="res/imj1.png">
+        <div class="content">
+          <h3>Syringe</h3>
+          <span class="price">200 $ /-</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="res/imj3.png">
+        <div class="content">
+          <h3>gloves</h3>
+          <span class="price"> 250 $ /-</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="res/imj4.png">
+        <div class="content">
+          <h3>medecines</h3>
+          <span class="price"> 300 $ /-</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+
+      <div class="total">total :  150 $ </div>
+      <a href="#" class="btn">Checkout</a>
+
+    </div>
+    <div class="forms" >
+    <form action="#" class="login-form ">
+      <h3>Login Now</h3>
+      <div class="form_message form_message_error"></div>
+      <div class="form_input-group">
+      <input type="email" placeholder="Your email" class="box">
+       <div class="form_input-error-message">This is an error message</div>
+      </div>
+
+      <div class="form_input-group">      
+      <input type="Password" placeholder="Your password" class="box">
+      <div class="form_input-error-message"></div>
+      </div>
+  
+      <p>forget your password <a href="#">Click Here</a></p>
+      <p>Don't have an account <a class="form_link" href="#" id="linkLogin">Create account</a></p>
+      <input type="submit" value="Login now" class="btn">
+
+      <div class="form-hidden createAccount">
+        <h1 class="form_title">Create Account</h1>
+        <div class="form_message form_message_error"></div>
+        <div class="form_input-group">
+          <input type="text" class="box" autofocus placeholder="Username">
+          <div class="form_input-error-message"></div>
+        </div>
+        <div class="form_input-group">
+           <input type="text" class="box" autofocus placeholder="Email Adress">
+           <div class="form_input-error-message"></div>
+        </div>
+        <div class="form_input-group">
+            <input type="text" class="box" autofocus placeholder="Password">
+            <div class="form_input-error-message"></div>
+        </div>
+        <div class="form_input-group">
+             <input type="text" class="box" autofocus placeholder="Confirm Password">
+             <div class="form_input-error-message"></div>
+        </div>
+      
+        <input type="submit" value="Submit" class="btn"> 
+      </div>
+    </form>  
+    </div>
+  </header>
+<main>
+<section class="home" id="home">
+  <img src="res/navbar.jpg">
+  <div class="content">
+    <h3>Providing quality <span>healthcare</span> products and services for a healthier tomorrow.</h3>
+    <p>Welcome to our esteemed Senegalese medical store, where we take pride in delivering exceptional healthcare solutions. With a firm commitment to the well-being of our valued customers, we strive to offer a comprehensive range of top-notch pharmaceutical products, medical equipment, and health-related services.</p>
+    <p>At our store, we understand the importance of access to reliable healthcare resources. That's why we ensure that each product and service we provide meets the highest standards of quality and efficacy. Whether you're seeking over-the-counter medications, medical devices, or expert advice, our dedicated team is here to assist you every step of the way.</p>
+    <p>Furthermore, we prioritize customer satisfaction above all else. We continuously update our inventory to reflect the latest advancements in the healthcare industry, ensuring that our patrons have access to cutting-edge solutions for their well-being.</p>
+    <a href="products.html" class="btn">Shop Now</a>
+  </div>
+</section>
+<section class="products">
+<div class="products-slider">
+  <div class="wrapper">
+    <div class="box">
+      <button onclick="location.href = 'products.html'"><img src="res/imj5.png"></button>
+    </div>
+    <div class="box">
+      <button onclick="location.href = 'products.html'"><img src="res/imj8.png"></button>
+    </div>
+    <div class="box">
+      <button onclick="location.href = 'products.html'"><img src="res/imj2 .png"></button>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+  
+  <footer >
+    <nav class="navbar">
+        <ul>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#sitemap">Sitemap</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+          </ul>
+    </nav>
+    <p>&copy; 2024 Your Website. All rights reserved.</p>
+  </footer>
+</body>
+<script src="js/main.js" defer></script>
+</html>
